@@ -1,0 +1,14 @@
+{
+  "name": "types",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "check-types": "tsc"
+  },
+  "devDependencies": {
+    "http-status-codes": "^2.2.0",
+    "typescript": "^4.9.5"
+  }
+}

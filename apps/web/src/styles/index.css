@@ -1,0 +1,17 @@
+#root {
+  height: 100%;
+}
+
+/* used for fullscreen scrolling  */
+body:fullscreen {
+  overflow: auto !important;
+}
+body:-ms-fullscreen {
+  overflow: auto !important;
+}
+body:-webkit-full-screen {
+  overflow: auto !important;
+}
+body:-moz-full-screen {
+  overflow: auto !important;
+}

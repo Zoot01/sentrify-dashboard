@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "noEmit": false,
+    "noImplicitAny": false,
+    "noImplicitReturns": false,
+    "noImplicitThis": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strictNullChecks": false,
+    "downlevelIteration": true,
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "paths": {
+      "@utils/*": ["./utils/*"],
+      "@v1/*": ["./v1/*"],
+      "@services/*": ["./services/*"],
+      "@controllers/*": ["./controllers/*"],
+      "@interfaces/*": ["./interfaces/*"],
+      "@database/*": ["./database/*"],
+      "@queues/*": ["./queues/*"],
+      "@processes/*": ["./processes/*"],
+      "@config/*": ["./config/*"],
+      "@middlewares/*": ["./middlewares/*"],
+      "@handlers/*": ["./handlers/*"],
+      "*": ["types/*.d.ts"]
+    }
+  },
+  "ts-node": {
+    "require": ["tsconfig-paths/register"],
+    "files": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

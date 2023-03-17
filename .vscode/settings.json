@@ -1,0 +1,4 @@
+{
+  "eslint.workingDirectories": ["apps/web", "apps/api"],
+  "workbench.editor.enablePreview": false
+}
