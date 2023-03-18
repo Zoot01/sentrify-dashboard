@@ -2,7 +2,15 @@
 
 # Sentrify Free React MUI5 Template Built With Authentication 🔐
 
-Sentrify is a free to use project template for web applications that include a user dashboard. Sentrify provides a clean UX on the frontend with a very basic Express server used for user authentication on the backend. The project is built using modern techniques and utilises turborepo for a seamless mono-repo enviorment. Sentrify if the perfect starting point for most small projects.
+<p align="center">
+  <a href="https://github.com/Zoot01/sentrify-dashboard"><img alt="Stars" src="https://img.shields.io/github/stars/Zoot01/sentrify-dashboard?style=plastic" /></a>
+  <a href="https://github.com/Zoot01/sentrify-dashboard"><img alt="License" src="https://img.shields.io/bower/l/mi?style=plastic" /></a>
+  <a href="https://github.com/Zoot01/sentrify-dashboard"><img alt="Contributors" src="https://img.shields.io/github/contributors/Zoot01/sentrify-dashboard" /></a>
+</p>
+
+## Please ⭐ to support and share with others
+
+Sentrify is a free to use project template for web applications that include a user dashboard. Sentrify provides a clean UX on the frontend with a very basic Express server used for user authentication on the backend. The project is built using modern techniques and utilizes turborepo for a seamless mono-repo environment. Sentrify is the perfect starting point for most small projects.
 
 | Features 🌟                   |
 | ----------------------------- |
