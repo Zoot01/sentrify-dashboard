@@ -71,14 +71,12 @@ Please keep the PORT & ALLOWED_ORGIN the same as below otherwise it will create 
 
 `JWT_SECRET=32 character string`
 
-Generate Prisma types
+Generate prisma types
 
 ```bash
-  cd apps
-  cd api
+  cd apps/api
   npx prisma generate
-  cd ..
-  cd ..
+  cd ../..
 ```
 
 Start the application
